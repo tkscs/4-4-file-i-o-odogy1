@@ -9,3 +9,10 @@
 ####
 #### YOUR CODE HERE 
 ####
+x = 0
+
+with open("romeo_and_juliet.txt", "r") as f:
+    text = f.read()
+
+x = text.count("Juliet")
+print(x)
